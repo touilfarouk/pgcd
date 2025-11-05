@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -65,6 +65,24 @@
     .text-danger {
       color: #e74c3c;
     }
+
+    /* Social links */
+    .social-links {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .social-links a {
+      text-decoration: none;
+      color: #6c5ce7;
+      font-weight: 600;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #341f97;
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
@@ -80,6 +98,12 @@
     </div>
     <button id="calculate">Calculer le PGCD</button>
     <div id="result"></div>
+
+    <div class="social-links">
+      <a href="https://github.com/touilfarouk/" target="_blank">GitHub</a>
+      <a href="https://www.facebook.com/touilfarouk" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/farouk-touil-02778592/" target="_blank">LinkedIn</a>
+    </div>
   </div>
 
   <script>
